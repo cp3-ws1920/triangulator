@@ -1,10 +1,11 @@
+#ifndef TRIANGULATOR_HPP_
+#define TRIANGULATOR_HPP_
+
 #include "Eigen/Dense"
 #include <vector>
 #include <array>
 
 namespace Triangulator {
-    struct Vertex;
-    struct Segment;
 
     struct Vertex {
         Vertex() { };
@@ -68,3 +69,5 @@ namespace Triangulator {
         void RefineRupperts(float alpha);
     };
 }
+
+#endif // TRIANGULATOR_HPP_
