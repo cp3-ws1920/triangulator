@@ -10,7 +10,6 @@ namespace Triangulator {
     struct Vertex {
         Vertex() { };
         Vertex(std::array<float, 2> init_coordinates) { coordinates = Eigen::Vector2f(init_coordinates.data()); }
-        Vertex(Eigen::Vector2f init_coordinates) { coordinates = init_coordinates; }
         Eigen::Vector2f coordinates; // x and y coordinates of the Vertex
         bool is_helper = false; // Used to mark whether a vertex is used in the super triangle
         bool orphaned = true; // Used to mark whether a vertex has triangle
