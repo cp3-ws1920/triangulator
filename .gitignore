@@ -1,2 +1,5 @@
 # .obj files from building
 *.obj
+
+# VS Code Editor files
+.vscode
