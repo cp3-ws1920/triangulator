@@ -14,4 +14,6 @@ The library can be added to your project as a submodule or by placing the repos 
 
 ### Usage
 
+An example application using `triangulator` can be found [here](https://github.com/cp3-ws1920/applications).
+
 TOOD: Add some documentation.
